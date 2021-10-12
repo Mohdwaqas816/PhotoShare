@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-*g_2nq%$*ggi=41gfqcze5d%qv@j^s43-*gqm0$zl=)lc&2^0g'
+SECRET_KEY = 'django-insecure-*g_2nq%$*ggi=41gfqcze5d%qv@j^s43-*gqm0$zl=)l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'photoshare.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'DEMO_TEST',
-        'USER': 'postgres',
-        'PASSWORD': 'waq786as',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': 'your database name',
+        'USER': 'user name',
+        'PASSWORD': 'your password',
+        'HOST': 'your host name',
+        'PORT': 'your port number',
     }
 }
 
@@ -124,8 +124,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'mohdamaan889977@gmail.com'
-EMAIL_HOST_PASSWORD = 'sernptfrlorxfqgu'
+EMAIL_HOST_USER = 'email'
+EMAIL_HOST_PASSWORD = 'email password'
 
 
 # Static files (CSS, JavaScript, Images)
